@@ -12,4 +12,4 @@ As a Solutions Architect you will need to know all the core AWS services for the
 4. Database
 5. Application Management
 6. Security and Identity
-7 Application Integration
+7. Application Integration
