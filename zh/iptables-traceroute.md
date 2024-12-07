@@ -1,9 +1,9 @@
 ---
 title: 🚀 iptables 使用方法的综合介绍，及路由路径介绍
-description: 🚀 `iptables` 使用方法的综合介绍，及路由路径介绍
+description: 🚀 iptables 综合介绍，及路由路径介绍
 published: 1
-date: 2024-12-07T00:12:18.727Z
-tags: iptables, linux, network, route, traceroute, windows
+date: 2024-12-07T00:13:06.423Z
+tags: iptables, linux, network, route, traceroute, windows, tracert
 editor: markdown
 dateCreated: 2024-12-05T01:14:27.972Z
 ---
