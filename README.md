@@ -1,3 +1,13 @@
+---
+title: README
+description: 
+published: 1
+date: 2024-12-03T01:28:13.502Z
+tags: 
+editor: markdown
+dateCreated: 2024-12-03T01:28:08.869Z
+---
+
 # About aws  
 
 ## 1. What is it? 

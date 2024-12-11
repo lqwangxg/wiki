@@ -2,8 +2,8 @@
 title: 🚀 iptables 使用方法的综合介绍，及路由路径介绍
 description: 🚀 iptables 综合介绍，及路由路径介绍
 published: 1
-date: 2024-12-07T00:13:06.423Z
-tags: iptables, linux, network, route, traceroute, windows, tracert
+date: 2024-12-10T14:10:03.831Z
+tags: iptables, network, route, traceroute, linux, windows, tracert
 editor: markdown
 dateCreated: 2024-12-05T01:14:27.972Z
 ---
@@ -99,6 +99,37 @@ dateCreated: 2024-12-05T01:14:27.972Z
     ```bash
     iptables -A INPUT -j DROP
     ```
+    - 拒绝特定IP的INPUT访问443
+    ```bash
+    #deny sourceIP 192.168.1.100, destPort:443/tcp, action:DROP
+    iptables -A INPUT -s 192.168.1.100 -p tcp --dport 443 -j DROP
+    #deny IPRange 
+    iptables -A INPUT -s 192.168.1.0/24 -p tcp --dport 443 -j DROP
+    #save rules
+    service iptables save  # 对于某些系统
+    iptables-save > /etc/iptables/rules.v4  # 永久保存规则
+    
+    #- 使用firewalld 的拒绝例
+    firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='192.168.1.100' port protocol='tcp' port='443' reject"
+    firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='192.168.1.0/24' port protocol='tcp' port='443' reject"
+    #reload
+    firewall-cmd --reload
+    ```
+    - 多个IP，可以加入ipset， 针对ipset配置规则
+    ```bash
+    ipset create blocklist hash:ip
+    ipset add blocklist 192.168.1.100
+    ipset add blocklist 192.168.1.101
+    ipset add blocklist 192.168.2.0/24
+    iptables -A INPUT -m set --match-set blocklist src -p tcp --dport 443 -j DROP
+    
+    #save rules 
+    ipset save > /etc/ipset.conf
+    iptables-save > /etc/iptables/rules.v4
+    #重启时加载 ipset 在 /etc/rc.local
+    ipset restore < /etc/ipset.conf
+    ```
+    
 2. 端口转发
    - 将流量从 80 端口转发到 8080：
     ```bash
@@ -193,3 +224,12 @@ dateCreated: 2024-12-05T01:14:27.972Z
 - **简单记忆**：
   - ip route 是 路由规则，决定 "走哪条路"。
   - iptables 是 行为规则，决定 "能否通过以及如何处理"。
+  
+### `ifconfig.me `检查 自身外网IP 地址
+```bash
+curl ifconfig.me
+```
+### `tcpdump` 抓包检查流量路径：
+```bash
+tcpdump -i eth0 host <client_public_ip>
+```
