@@ -10,6 +10,8 @@ dateCreated: 2024-12-03T00:33:39.211Z
 
 # 🌐 IT技術 Wiki ホームページ
 
+[English](/home.md) | [Japanese](/ja/home.md) | [Chinese](/zh/home.md)
+
 ようこそ **IT技術 Wiki** へ 🎉！ここは、基礎から応用まで、IT分野の知識を深めるための総合的なリソースです。理論と実践を組み合わせて、重要な技術分野を効率的に学びましょう。
 
 ---

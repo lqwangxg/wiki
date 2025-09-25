@@ -10,6 +10,8 @@ dateCreated: 2025-09-25T01:28:13.502Z
 
 # mcp-server settings.json For Gemini-cli
 
+[English](/en/settings-json.md) | [Japanese](/ja/settings-json.md) | [Chinese](/.gemini/settings-json.md)
+
 > **settings.json 存放路径说明：**
 >
 > 1. **系统路径**：如果希望所有用户或全局环境都能访问该配置文件，可将 `settings.json` 放在操作系统的全局配置目录下。例如：

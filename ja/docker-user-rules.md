@@ -10,6 +10,8 @@ dateCreated: 2024-12-04T09:29:57.323Z
 
 ## DOCKER-USER チェーンのルールの追加と削除
 
+[English](/docker-user-rules.md) | [Japanese](/ja/docker-user-rules.md) | [Chinese](/zh/docker-user-rules.md)
+
 Docker は、iptables を使用してネットワークトラフィックを管理します。`DOCKER-USER` チェーンは、Docker コンテナに関連するトラフィックに対するカスタムルールを追加するための特別なチェーンです。このチェーンは、Docker が生成したルールの前に評価されます。
 
 ---

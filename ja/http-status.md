@@ -10,6 +10,8 @@ dateCreated: 2024-12-14T14:08:45.328Z
 
 # HTTPステータスコードとその意味 🌐
 
+[English](/en/http-status.md) | [Japanese](/ja/http-status.md) | [Chinese](/zh/http-status.md)
+
 以下に、HTTPステータスコードの説明と返される状況を示します。
 
 ## 1xx: 情報レスポンス

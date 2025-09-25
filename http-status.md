@@ -10,6 +10,8 @@ dateCreated: 2024-12-14T14:04:42.457Z
 
 # HTTP 状态码解释及返回场景 🌐
 
+[English](/en/http-status.md) | [Japanese](/ja/http-status.md) | [Chinese](/zh/http-status.md)
+
 以下是 HTTP 协议中常见状态码的详细说明及其返回场景。
 
 ## 1xx：信息性状态码

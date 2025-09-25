@@ -10,6 +10,8 @@ dateCreated: 2025-09-25T01:28:13.502Z
 
 # mcp-server settings.json For Gemini-cli
 
+[English](/en/settings-json.md) | [Japanese](/ja/settings-json.md) | [Chinese](/.gemini/settings-json.md)
+
 > **settings.json 保存パスの説明：**
 >
 > 1. **システムパス**：すべてのユーザーまたはグローバル環境でこの設定ファイルにアクセスできるようにしたい場合は、`settings.json` をオペレーティングシステムのグローバル設定ディレクトリに配置できます。例：

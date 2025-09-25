@@ -10,6 +10,8 @@ dateCreated: 2024-12-05T01:14:27.972Z
 
 # 🚀 `iptables` 使用方法的综合介绍
 
+[English](/en/iptables-traceroute.md) | [Japanese](/ja/iptables-traceroute.md) | [Chinese](/zh/iptables-traceroute.md)
+
 `iptables` 是 Linux 上一种强大的防火墙工具，用于管理和配置网络流量的规则。通过它可以设置允许、拒绝或转发的流量规则，保护系统网络安全。
 
 ---

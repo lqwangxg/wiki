@@ -10,6 +10,8 @@ dateCreated: 2024-12-09T07:19:01.448Z
 
 # 🚀 使用 Nginx 为 `smtp4dev` Web 页面添加登录认证
 
+[English](/nginx-authentication.md) | [Japanese](/ja/nginx-authentication.md) | [Chinese](/zh/nginx-authentication.md)
+
 以下是通过 Docker 和 Nginx 为 `smtp4dev` 的 Web 页面设置用户认证的步骤。
 
 ---

@@ -10,6 +10,8 @@ dateCreated: 2024-12-03T00:32:38.185Z
 
 # 🌐 IT Knowledge Wiki Homepage
 
+[English](/home.md) | [Japanese](/ja/home.md) | [Chinese](/zh/home.md)
+
 Welcome to the **IT Knowledge Wiki** 🎉! This is your one-stop repository for mastering IT concepts, from foundational to advanced levels, with practical insights into key areas of technology.
 
 ---

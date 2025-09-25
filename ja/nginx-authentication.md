@@ -10,6 +10,8 @@ dateCreated: 2024-12-09T07:38:10.428Z
 
 # 🚀 Nginx を使用してログイン認証を追加する
 
+[English](/nginx-authentication.md) | [Japanese](/ja/nginx-authentication.md) | [Chinese](/zh/nginx-authentication.md)
+
 以下は、Docker と Nginx を使用して smtp4dev のウェブページにユーザー認証を設定する手順です。
 
 ---

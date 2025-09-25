@@ -10,6 +10,8 @@ dateCreated: 2024-12-03T00:29:54.784Z
 
 # 🌐 IT 技术 Wiki 首页
 
+[English](/home.md) | [Japanese](/ja/home.md) | [Chinese](/zh/home.md)
+
 欢迎来到 **IT 技术知识库** 🎉！这里涵盖了各种与 IT 相关的技术内容，从基础到高级，从理论到实践，助你快速掌握核心技能。
 
 ---

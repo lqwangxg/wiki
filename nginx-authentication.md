@@ -10,6 +10,8 @@ dateCreated: 2024-12-09T07:41:55.725Z
 
 # 🚀 Adding Login Authentication to Web Page Using Nginx
 
+[English](/nginx-authentication.md) | [Japanese](/ja/nginx-authentication.md) | [Chinese](/zh/nginx-authentication.md)
+
 The following are the steps to set up user authentication for the smtp4dev web page using Docker and Nginx.
 ---
 ## 1️⃣ Add `auth_basic` and `auth_basic_user_file` to `Nginx.conf`

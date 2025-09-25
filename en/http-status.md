@@ -10,6 +10,8 @@ dateCreated: 2024-12-14T14:07:48.080Z
 
 # HTTP Status Codes and Their Meanings 🌐
 
+[English](/en/http-status.md) | [Japanese](/ja/http-status.md) | [Chinese](/zh/http-status.md)
+
 Below is an explanation of HTTP status codes and the situations in which they are returned.
 
 ## 1xx: Informational Status Codes
