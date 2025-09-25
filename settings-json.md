@@ -10,7 +10,7 @@ dateCreated: 2025-09-25T01:28:13.502Z
 
 # mcp-server settings.json For Gemini-cli
 
-[English](/en/settings-json.md) | [Japanese](/ja/settings-json.md) | [Chinese](/.gemini/settings-json.md)
+[English](/en/settings-json.md) | [Japanese](/ja/settings-json.md) | [Chinese](/settings-json.md)
 
 > **settings.json 存放路径说明：**
 >
