@@ -2,7 +2,7 @@
 title: saml-sso 
 description: keycloak 作为saml IdP，为intra-mart accel platfrom 提供sso认证服务
 published: true
-date: 2025-10-29T05:14:33.027Z
+date: 2025-10-29T05:17:44.223Z
 tags: saml, sso, keycloak, iap
 editor: markdown
 dateCreated: 2025-10-29T05:14:33.027Z
@@ -262,12 +262,3 @@ Keycloak 自行生成，形如：
 * [ ] 证书有效期/配对检查通过
 
 ---
-
-## 十二、如果你想，我可以：
-
-* 生成一份可直接导入的 `imart-sp-metadata.xml`（把你实际的 ACS / EntityID / 证书粘给我即可）。
-* 或者我把上面步骤整理成一页 PDF 下载（包含命令与示例）。
-
----
-
-如果你把 intra-mart 导出的 `metadata.xml` 或 Keycloak 的 `IdP` descriptor 粘到这里，我可以帮你直接检查常见字段（EntityID、ACS、证书）是否匹配，并指出差异。
