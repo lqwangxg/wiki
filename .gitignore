@@ -1,0 +1,27 @@
+# Gitignore for a general project
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Build Artifacts
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+vendor/
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables
+.env
+.env.*
+.gemini/
