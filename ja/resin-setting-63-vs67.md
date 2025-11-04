@@ -2,13 +2,13 @@
 title: resin setting 4.063 vs 4.067
 description: 
 published: true
-date: 2025-11-04T08:44:11.101Z
+date: 2025-11-04T08:47:08.365Z
 tags: resin
 editor: markdown
 dateCreated: 2025-11-04T08:44:11.101Z
 ---
 
-# Resin-Pro 4.0.63 vs 4.0.67 の 設定変更レポート
+# Resin-Pro 4.0.63 vs 4.0.67 の 設定変更
 
 ---
 
