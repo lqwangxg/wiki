@@ -2,7 +2,7 @@
 title: Keycloak Integration with GitLab and OAuth2-Proxy: A Comprehensive Guide
 description: Keycloak Integration with GitLab and OAuth2-Proxy: A Comprehensive Guide
 published: true
-date: 2025-11-13T09:01:38.206Z
+date: 2025-11-14T01:43:01.203Z
 tags: keycloak, gitlab, oauth2proxy
 editor: markdown
 dateCreated: 2025-11-13T09:01:30.330Z
@@ -95,31 +95,6 @@ Imagine the login process like a "double-layer issuance" at airport security:
     *   They do not need to be aware of GitLab's existence.
 
 ### 3.3 Detailed Login Flow (Sequence Diagram)
-
-```mermaid
-sequenceDiagram
-    participant User
-    participant Nginx
-    participant Oauth2Proxy
-    participant Keycloak
-    participant GitLab
-
-    User->>+Nginx: ① Access https://s1.web.local
-    Nginx->>Oauth2Proxy: ② Forward request
-    Oauth2Proxy-->>Keycloak: ③ No session, redirect to Keycloak login page
-    Keycloak->>User: Keycloak Login Page
-    User->>Keycloak: ④ Click "Login with GitLab"
-    Keycloak->>+GitLab: ⑤ Redirect User to GitLab Login
-    GitLab->>User: GitLab Login Page (credentials + 2FA)
-    User->>GitLab: ⑥ Input credentials + 2FA verified
-    GitLab-->>-Keycloak: ⑦ Return Authorization Code
-    Keycloak->>GitLab: ⑧ Use Authorization Code to get User Info (email, name, etc.)
-    Keycloak->>Keycloak: ⑨ Create/Update internal user mapping (no password, references GitLab)
-    Keycloak-->>-Oauth2Proxy: ⑩ Issue Access Token / ID Token
-    Oauth2Proxy->>Oauth2Proxy: ⑪ Validate token
-    Oauth2Proxy->>Nginx: Allow access
-    Nginx->>User: ⑫ User successfully accesses web service (resin pro / filebrowser / other services)
-```
 
 ```mermaid
 graph TD
