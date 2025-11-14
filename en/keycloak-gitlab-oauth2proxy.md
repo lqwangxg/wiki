@@ -9,7 +9,7 @@ dateCreated: 2025-11-13T09:01:30.330Z
 ---
 
 # Keycloak Integration with GitLab and OAuth2-Proxy: A Comprehensive Guide
-
+[English](/en/keycloak-gitlab-oauth2proxy.md) | [Japanese](/ja/keycloak-gitlab-oauth2proxy.md) | [Chinese](/zh/keycloak-gitlab-oauth2proxy.md)
 ## Introduction
 
 This guide provides a comprehensive overview and detailed steps for integrating GitLab as an Identity Provider (IdP) with Keycloak acting as an authorization service and Identity Broker, secured by oauth2-proxy and Nginx. This setup aims to leverage existing GitLab authentication while enhancing authorization capabilities through Keycloak.
