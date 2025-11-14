@@ -2,7 +2,7 @@
 title: Keycloak Integration with GitLab and OAuth2-Proxy: A Comprehensive Guide
 description: Keycloak Integration with GitLab and OAuth2-Proxy: A Comprehensive Guide
 published: true
-date: 2025-11-13T09:01:30.330Z
+date: 2025-11-13T09:01:38.206Z
 tags: keycloak, gitlab, oauth2proxy
 editor: markdown
 dateCreated: 2025-11-13T09:01:30.330Z

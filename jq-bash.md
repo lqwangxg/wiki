@@ -2,7 +2,7 @@
 title: bash下jq对json操作
 description: jq操作json语法简介
 published: true
-date: 2025-11-11T05:29:25.627Z
+date: 2025-11-11T05:29:32.700Z
 tags: json, jq
 editor: markdown
 dateCreated: 2025-11-11T05:29:25.627Z

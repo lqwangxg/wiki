@@ -1,53 +1,54 @@
 ---
-title: 🚀 Adding Login Authentication to the Web Page Using Nginx
-description: Adding Login Authentication to the smtp4dev Web Page Using Nginx
-published: 1
-date: 2024-12-09T07:42:25.573Z
-tags: authentication, login, nginx, smtp4dev, auth_basic, auth_basic_user_file
+title: 🚀 使用 Nginx 为 Web 页面添加登录认证
+description: 🚀 使用 Nginx 为没有login的 Web 页面，比如smtp4dev  添加登录认证
+published: true
+date: 2025-10-31T05:06:58.235Z
+tags: authentication, login, nginx, smtp4dev
 editor: markdown
-dateCreated: 2024-12-09T07:41:55.725Z
+dateCreated: 2025-09-25T02:54:31.579Z
 ---
 
-# 🚀 Adding Login Authentication to Web Page Using Nginx
+# 🚀 使用 Nginx 为 `smtp4dev` Web 页面添加登录认证
 
 [English](/nginx-authentication.md) | [Japanese](/ja/nginx-authentication.md) | [Chinese](/zh/nginx-authentication.md)
 
-The following are the steps to set up user authentication for the smtp4dev web page using Docker and Nginx.
+以下是通过 Docker 和 Nginx 为 `smtp4dev` 的 Web 页面设置用户认证的步骤。
+
 ---
-## 1️⃣ Add `auth_basic` and `auth_basic_user_file` to `Nginx.conf`
+## 1️⃣ 向`Nginx.conf`追加`auth_basic`和`auth_basic_user_file`
 ```conf
 http {
     server {
         listen 80;
 
         location / {
-            proxy_pass http://smtp4dev:8025; # Proxy to smtp4dev web page
+            proxy_pass http://smtp4dev:8025; # 代理 smtp4dev Web 页面
             proxy_set_header Host $host;
             proxy_set_header X-Real-IP $remote_addr;
 
-            auth_basic "Restricted Access";            #👈️ Enable basic authentication 🔒
-            auth_basic_user_file /etc/nginx/htpasswd;  #👈️ Specify the authentication file
+            auth_basic "Restricted Access";            #👈️ 开启基本身份验证 🔒
+            auth_basic_user_file /etc/nginx/htpasswd;  #👈️ 指定认证文件
         }
     }
 }
 ```
-## 2️⃣ Create the `htpasswd` File
-- Use the `htpasswd` tool to generate a username and password:
+## 2️⃣ 创建 `htpasswd` 文件
+- 使用 htpasswd 工具生成用户名和密码：
 ```bash
-# Install the htpasswd tool
+# 安装 htpasswd 工具
 #apt-get install apache2-utils
 apk add apache2-utils
 
-# Create the .htpasswd file and add a user
+# 创建 .htpasswd 文件并添加用户
 htpasswd -c ./htpasswd mailuser
-# Enter and confirm the password
+# 输入密码并确认
 ```
-- This will generate an `htpasswd` file with content similar to:
+- 这会生成一个 `htpasswd` 文件，内容类似于：
 ```plaintext
 mailuser:$apr1$xyz12345$abcdEFGhijkLmnopQrstUV
 ```
-- Place the `htpasswd` file under `/etc/nginx/`, and reload nginx:
+- 将`htpasswd` 文件放在`/etc/nginx/`下, 重新load nginx 
 ```bash
 nginx -s reload
 ```
-- When you reopen the mail page, you will be prompted to enter the username and password.
+- 重新打开mail页面，会提示输入user/password

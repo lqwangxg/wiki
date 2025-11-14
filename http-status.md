@@ -1,11 +1,11 @@
 ---
-title: 🌐 HTTP 状态码解释及返回场景 
-description: HTTP 状态码解释及返回场景 
-published: 1
-date: 2024-12-14T14:04:42.457Z
+title: 🌐 HTTP 状态码解释及返回场景
+description: HTTP 状态码解释及返回场景
+published: true
+date: 2025-10-31T05:04:33.733Z
 tags: http, https, status
 editor: markdown
-dateCreated: 2024-12-14T14:04:42.457Z
+dateCreated: 2025-09-25T04:08:10.202Z
 ---
 
 # HTTP 状态码解释及返回场景 🌐

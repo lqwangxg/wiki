@@ -1,11 +1,11 @@
 ---
-title: 🌐 HTTPステータスコードとその意味 
-description: HTTPステータスコードとその意味 
-published: 1
-date: 2024-12-14T14:08:45.328Z
+title: 🌐 HTTPステータスコードとその意味
+description: HTTPステータスコードとその意味
+published: true
+date: 2025-10-31T05:06:06.742Z
 tags: http, https, status
 editor: markdown
-dateCreated: 2024-12-14T14:08:45.328Z
+dateCreated: 2025-09-25T02:53:22.921Z
 ---
 
 # HTTPステータスコードとその意味 🌐

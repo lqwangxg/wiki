@@ -1,11 +1,11 @@
 ---
 title: README
 description: これはWikiのメインページです。コンテンツの概要とナビゲーション方法を提供します。
-published: 1
-date: 2024-12-03T01:28:13.502Z
+published: true
+date: 2025-10-31T05:05:46.245Z
 tags: wiki, documentation, guide
 editor: markdown
-dateCreated: 2024-12-03T01:28:08.869Z
+dateCreated: 2025-09-25T02:52:59.883Z
 ---
 
 # Wikiへようこそ

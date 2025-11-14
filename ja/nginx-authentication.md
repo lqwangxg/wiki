@@ -1,11 +1,11 @@
 ---
 title: 🚀Nginx を使用してログイン認証を追加
 description: Nginx を使用して smtp4dev のウェブページにログイン認証を追加する
-published: 1
-date: 2024-12-09T07:42:56.146Z
+published: true
+date: 2025-10-31T05:06:12.957Z
 tags: authentication, login, nginx, smtp4dev
 editor: markdown
-dateCreated: 2024-12-09T07:38:10.428Z
+dateCreated: 2025-09-25T02:53:30.572Z
 ---
 
 # 🚀 Nginx を使用してログイン認証を追加する

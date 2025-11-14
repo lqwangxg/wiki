@@ -2,7 +2,7 @@
 title: resin setting 4.063 vs 4.067
 description: 
 published: true
-date: 2025-11-04T08:47:08.365Z
+date: 2025-11-04T08:47:14.010Z
 tags: resin
 editor: markdown
 dateCreated: 2025-11-04T08:44:11.101Z

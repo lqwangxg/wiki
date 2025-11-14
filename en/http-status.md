@@ -1,11 +1,11 @@
 ---
-title: 🌐HTTP Status Codes and Their Meanings 
-description: 🌐HTTP Status Codes and Their Meanings 
-published: 1
-date: 2024-12-14T14:07:48.080Z
+title: 🌐HTTP Status Codes and Their Meanings
+description: 🌐HTTP Status Codes and Their Meanings
+published: true
+date: 2025-10-31T05:05:26.635Z
 tags: http, https, status
 editor: markdown
-dateCreated: 2024-12-14T14:07:48.080Z
+dateCreated: 2025-09-25T02:53:37.690Z
 ---
 
 # HTTP Status Codes and Their Meanings 🌐

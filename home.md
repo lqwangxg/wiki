@@ -1,109 +1,109 @@
 ---
-title: 🌐 IT Knowledge Wiki Homepage (English)
-description: 🌐 IT Knowledge Wiki Homepage (English)
-published: 1
-date: 2024-12-03T01:28:16.460Z
-tags: it
+title: 🌐IT 技术知识点学习笔记
+description: 🌐IT 技术知识点学习笔记
+published: true
+date: 2025-10-31T05:06:45.190Z
+tags: it, knowhow
 editor: markdown
-dateCreated: 2024-12-03T00:32:38.185Z
+dateCreated: 2025-09-25T02:54:16.075Z
 ---
 
-# 🌐 IT Knowledge Wiki Homepage
+# 🌐 IT 技术 Wiki 首页
 
 [English](/home.md) | [Japanese](/ja/home.md) | [Chinese](/zh/home.md)
 
-Welcome to the **IT Knowledge Wiki** 🎉! This is your one-stop repository for mastering IT concepts, from foundational to advanced levels, with practical insights into key areas of technology.
+欢迎来到 **IT 技术知识库** 🎉！这里涵盖了各种与 IT 相关的技术内容，从基础到高级，从理论到实践，助你快速掌握核心技能。
 
 ---
 
-## 📚 Table of Contents
+## 📚 目录
 
-1. **[Cloud-Native Technology](#cloud-native-technology)** ☁️  
-   Dive into Kubernetes, Docker, and microservices architecture.
+1. **[云原生技术](#云原生技术)** ☁️  
+   探索 Kubernetes、Docker 等云原生技术，以及微服务架构的实践方法。
 
-2. **[Database Technology](#database-technology)** 🗄️  
-   Learn about relational databases, NoSQL databases, and optimization techniques.
+2. **[数据库技术](#数据库技术)** 🗄️  
+   包括关系型数据库（如 MySQL、PostgreSQL）、NoSQL 数据库（如 MongoDB、Redis）及其优化技巧。
 
-3. **[Network Security](#network-security)** 🔐  
-   Explore network protection, firewalls, vulnerability fixes, and incident responses.
+3. **[网络安全](#网络安全)** 🔐  
+   学习网络攻击与防护技术，包括防火墙配置、漏洞修复及应急响应。
 
-4. **[Encryption & Decryption](#encryption--decryption)** 🔒  
-   Understand symmetric encryption, asymmetric encryption, and digital signatures.
+4. **[加密与解密](#加密与解密)** 🔒  
+   了解对称加密、非对称加密和数据签名技术的原理与应用。
 
-5. **[AI Technologies (Coming Soon)](#ai-technologies-coming-soon)** 🤖  
-   A future addition to cover AI, including machine learning, deep learning, and large language models.
-
----
-
-## ☁️ Cloud-Native Technology
-
-- **Containerization & Orchestration** 🐳  
-  Learn Docker and Kubernetes with real-world examples and best practices.
-
-- **Microservices Architecture** 🧩  
-  Understand scalable and maintainable service design.
-
-- **DevOps & CI/CD Pipelines** 🚀  
-  Automate end-to-end workflows from code to production.
+5. **[AI 技术（即将上线）](#ai-技术即将上线)** 🤖  
+   将添加人工智能相关的内容，包括深度学习、机器学习和大语言模型。
 
 ---
 
-## 🗄️ Database Technology
+## ☁️ 云原生技术
 
-- **Relational Databases** 💾  
-  SQL optimization, indexing, and performance tuning techniques.
+- **容器化与编排** 🐳  
+  深入了解 Docker 和 Kubernetes 的使用场景与最佳实践。
+  
+- **微服务架构** 🧩  
+  学习如何设计和实现可扩展、易维护的微服务。
 
-- **NoSQL Databases** 🌲  
-  Explore databases like MongoDB and Redis for big data and distributed systems.
-
-- **Backup & Recovery** 🛠️  
-  Ensure data security and high availability.
-
----
-
-## 🔐 Network Security
-
-- **Security Basics** 🛡️  
-  Introduction to firewalls, VPNs, and network segmentation.
-
-- **Vulnerability Scanning & Fixes** 🔍  
-  Discover and fix vulnerabilities using tools like Nessus and Burp Suite.
-
-- **Intrusion Detection & Defense** ⚔️  
-  Techniques to monitor and combat network threats.
+- **DevOps 与 CI/CD** 🚀  
+  从代码提交到生产环境的全流程自动化管理。
 
 ---
 
-## 🔒 Encryption & Decryption
+## 🗄️ 数据库技术
 
-- **Symmetric Encryption** 🔑  
-  Learn AES, DES, and other classic algorithms.
+- **关系型数据库** 💾  
+  探讨 SQL 优化、索引设计与性能调优技巧。
 
-- **Asymmetric Encryption** 🛡️  
-  Dive into RSA, ECC, and their use cases.
+- **NoSQL 数据库** 🌲  
+  学习适用于大数据和分布式场景的数据库，例如 MongoDB、Cassandra。
 
-- **Key Management & Secure Communication** 🔐  
-  Master cryptographic key management and secure data exchange.
-
----
-
-## 🤖 AI Technologies (Coming Soon)
-
-Future content will cover topics like:
-
-- **Machine Learning Basics** 📈  
-  A comprehensive guide to supervised and unsupervised learning.
-
-- **Deep Learning Frameworks** 🧠  
-  Hands-on tutorials for TensorFlow and PyTorch.
-
-- **Large Language Models** 💬  
-  Learn how to train and deploy modern LLMs.
+- **数据备份与恢复** 🛠️  
+  如何确保数据安全与高可用性。
 
 ---
 
-## 🌟 Get Involved
+## 🔐 网络安全
 
-Have suggestions or want to contribute? Reach out to the admin or submit a Pull Request! 💌
+- **基础安全知识** 🛡️  
+  防火墙、VPN 和网络分段的基本设置。
+
+- **漏洞扫描与修复** 🔍  
+  使用工具（如 Nessus、Burp Suite）发现并修复漏洞。
+
+- **入侵检测与防御** ⚔️  
+  学习如何监控和抵御网络攻击。
+
+---
+
+## 🔒 加密与解密
+
+- **对称加密** 🔑  
+  了解 AES、DES 等经典算法的原理与实现。
+
+- **非对称加密** 🛡️  
+  探索 RSA、ECC 和数字签名的应用场景。
+
+- **密码管理与密钥交换** 🔐  
+  掌握安全通信中的关键技术。
+
+---
+
+## 🤖 AI 技术（即将上线）
+
+我们将陆续添加人工智能领域的技术内容，包括但不限于：
+
+- **机器学习基础** 📈  
+  从监督学习到无监督学习的全面解析。
+
+- **深度学习框架** 🧠  
+  TensorFlow、PyTorch 等主流框架的应用示例。
+
+- **大语言模型应用** 💬  
+  了解如何训练和部署现代大语言模型。
+
+---
+
+## 🌟 一起参与
+
+如果你对本 Wiki 有建议或贡献内容的兴趣，请联系管理员或提交 Pull Request！💌
 
 ---

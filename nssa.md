@@ -2,7 +2,7 @@
 title: 用nssa将bat,ps1包装成windows 服务
 description: 
 published: true
-date: 2025-11-04T05:06:03.215Z
+date: 2025-11-04T05:06:09.230Z
 tags: windows, services, nssa
 editor: markdown
 dateCreated: 2025-11-04T02:50:29.700Z

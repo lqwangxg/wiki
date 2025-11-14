@@ -1,8 +1,8 @@
 ---
-title: saml-sso 
+title: saml-sso
 description: keycloak 作为saml IdP，为intra-mart accel platfrom 提供sso认证服务
 published: true
-date: 2025-10-29T05:17:44.223Z
+date: 2025-10-31T05:05:00.471Z
 tags: saml, sso, keycloak, iap
 editor: markdown
 dateCreated: 2025-10-29T05:14:33.027Z

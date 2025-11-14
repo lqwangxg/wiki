@@ -2,10 +2,10 @@
 title: saml-sso
 description: Keycloak を SAML IdP として、intra-mart Accel Platform に SSO 認証サービスを提供
 published: true
-date: 2025-10-29T05:17:44.223Z
+date: 2025-10-31T05:06:20.334Z
 tags: saml, sso, keycloak, iap
 editor: markdown
-dateCreated: 2025-10-29T05:14:33.027Z
+dateCreated: 2025-10-30T06:47:17.875Z
 ---
 
 # Keycloak (IdP) と intra-mart Accel Platform (SP) の SAML 署名設定とトラブルシューティングガイド

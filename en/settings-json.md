@@ -1,11 +1,11 @@
 ---
 title: mcp-server settings.json For Gemini-cli
 description: 
-published: 1
-date: 2025-09-25T01:28:13.502Z
-tags: mcp,gemini,gemini-cli,mcpServers,settings.json 
+published: true
+date: 2025-10-31T05:05:40.245Z
+tags: mcp,gemini,gemini-cli,mcpservers,settings.json
 editor: markdown
-dateCreated: 2025-09-25T01:28:13.502Z
+dateCreated: 2025-09-25T03:52:15.702Z
 ---
 
 # mcp-server settings.json For Gemini-cli
