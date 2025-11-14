@@ -1,11 +1,11 @@
 ---
-title: Keycloak Integration with GitLab and OAuth2-Proxy: A Comprehensive Guide
-description: Keycloak Integration with GitLab and OAuth2-Proxy: A Comprehensive Guide
+title: keycloak-gitlab-oauth2proxy
+description: 
 published: true
-date: 2025-11-13T09:01:38.206Z
-tags: keycloak, gitlab, oauth2proxy
+date: 2025-11-14T02:11:03.899Z
+tags: 
 editor: markdown
-dateCreated: 2025-11-13T09:01:30.330Z
+dateCreated: 2025-11-14T02:09:27.965Z
 ---
 
 # GitLab (IdP) + Keycloak（作为授权服务 / broker） + oauth2-proxy/nginx
