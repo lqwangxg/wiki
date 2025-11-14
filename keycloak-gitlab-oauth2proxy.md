@@ -1,9 +1,9 @@
 ---
 title: keycloak-gitlab-oauth2proxy
-description: 
+description: GitLab 作为身份提供者（IdP）与 Keycloak（作为授权服务和身份代理）集成，并通过 oauth2-proxy 和 Nginx 进行保护的全面概述和详细步骤
 published: true
-date: 2025-11-14T02:11:03.899Z
-tags: 
+date: 2025-11-14T02:12:01.206Z
+tags: keycloak, gitlab, oauth2proxy
 editor: markdown
 dateCreated: 2025-11-14T02:09:27.965Z
 ---
