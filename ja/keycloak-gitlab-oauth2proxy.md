@@ -1,11 +1,11 @@
---- 
-title: Keycloak と GitLab および OAuth2-Proxy の統合：包括的なガイド
-description: Keycloak と GitLab および OAuth2-Proxy の統合：包括的なガイド
+---
+title: keycloak-gitlab-oauth2proxy
+description: GitLab を ID プロバイダー (IdP) として、Keycloak を認可サービスおよび ID ブローカーとして統合し、oauth2-proxy と Nginx で保護するための包括的な概要と詳細な手順
 published: true
-date: 2025-11-13T09:01:38.206Z
+date: 2025-11-14T02:13:18.041Z
 tags: keycloak, gitlab, oauth2proxy
 editor: markdown
-dateCreated: 2025-11-13T09:01:30.330Z
+dateCreated: 2025-11-14T02:09:17.004Z
 ---
 
 # GitLab (IdP) + Keycloak（認可サービス / ブローカーとして） + oauth2-proxy/nginx
